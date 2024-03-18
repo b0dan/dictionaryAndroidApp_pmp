@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/etEnglish"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="English Translation" />
+
+    <EditText
+        android:id="@+id/etMacedonian"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Macedonian Translation"
+        android:layout_marginTop="8dp" />
+
+</LinearLayout>
